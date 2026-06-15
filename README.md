@@ -1,79 +1,105 @@
-# 🎯 Student Placement Prediction System
+# Student Employability Forecast Platform
 
-## 📋 Project Overview
-An intelligent AI/ML-powered web application that predicts campus placement probability for students based on their academic history, specialization, and work experience. The system provides data-driven insights to help students understand their placement chances and areas for improvement.
+## Overview
 
-## 🚀 Live Demo
-**Currently runs on localhost** - Perfect for academic demonstration and evaluation.
+The Student Employability Forecast Platform is an AI-powered web application that predicts a student's placement probability using machine learning techniques. The platform analyzes academic and professional attributes to estimate employability and provides insights that help students improve their career readiness.
 
-## 🛠️ Tech Stack
-- **Frontend:** React.js + Vite
-- **Styling:** Tailwind CSS + Framer Motion
-- **Backend:** Flask (Python)
-- **ML Model:** Support Vector Machine (SVM)
-- **Deployment:** Ready for Vercel deployment
+## Features
 
-## 📊 Features
-- ✅ Student placement probability prediction
-- ✅ Academic performance analysis dashboard
-- ✅ Personalized placement recommendations
-- ✅ Interactive form with real-time validation
-- ✅ Beautiful UI with animations
-- ✅ Responsive design for all devices
-- ✅ Data-driven insights from 215+ student records
+* Predict student placement chances using Machine Learning
+* Interactive and user-friendly dashboard
+* Real-time prediction results
+* Data-driven employability insights
+* Responsive web interface
+* FastAPI backend for efficient API handling
+* React and Vite frontend for a modern user experience
 
-## 🎓 Project Details
-**Course:** Artificial Intelligence and Data Science  
-**Project Type:** Mini Project  
-**Academic Year:** 2025
+## Technology Stack
 
-## 🏃‍♂️ Quick Start
+### Frontend
 
-### Prerequisites
-- Node.js (v16 or higher)
-- Python 3.8+
-- npm or yarn
+* React.js
+* Vite
+* Tailwind CSS
+* JavaScript
 
-### Installation & Local Development
+### Backend
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/javking-pranesh/placement-predictor.git
-   cd placement-predictor
+* FastAPI
+* Python
 
-📁 Project Structure
+### Machine Learning
 
-placement-predictor/
-├── src/                 # React frontend
-│   ├── components/     # React components
-│   ├── services/       # API services
-│   └── ...
-├── backend/            # Flask backend
-│   ├── app.py         # Flask application
-│   ├── model/         # SVM model files
-│   └── requirements.txt
-└── README.md
+* Scikit-learn
+* Pandas
+* NumPy
 
-🎯 Usage
-Fill in student academic details in the form
+### Database & Storage
 
-Click "Get Placement Prediction"
+* Pickle (.pkl) model files
+* Excel dataset
 
-View probability score and personalized recommendations
+## Project Structure
 
-Analyze key factors affecting placement chances
+```text
+backend/
+├── app.py
+├── requirements.txt
+├── data/
+└── model/
 
-Use insights to improve academic performance
+src/
+├── components/
+├── pages/
+├── services/
+└── assets/
+```
 
-📈 Model Insights (Based on 215 records)
-Overall Placement Rate: 72.6%
+## Installation
 
-Work Experience Impact: +36.3% placement chance
+### Clone the Repository
 
-MBA Percentage > 65%: 85.2% placement rate
+```bash
+git clone https://github.com/Sreeja-hub-code/Student-Employability-Forecast-Platform.git
+cd Student-Employability-Forecast-Platform
+```
 
-Mkt&Fin Specialization: +6.6% better placement
+### Backend Setup
 
-Degree Percentage > 70%: +27% advantage
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
 
-SVM Model Accuracy: [88.37%]
+### Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Usage
+
+1. Enter student academic and skill-related details.
+2. Submit the form for prediction.
+3. View employability probability and insights.
+4. Analyze factors affecting placement outcomes.
+
+## Future Enhancements
+
+* Resume analysis using NLP
+* Skill gap detection
+* Job recommendation system
+* Interview preparation assistant
+* Advanced analytics dashboard
+
+## Author
+
+**Sreeja N**
+
+B.Sc Artificial Intelligence & Machine Learning Student
+
+## License
+
+This project is licensed under the MIT License.
